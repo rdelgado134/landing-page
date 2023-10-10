@@ -2,6 +2,7 @@ body
 {
 margin:0;
 padding:0;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 a
@@ -13,6 +14,23 @@ a
 li
 {
     list-style: none;
+}
+
+ h1
+{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.header-logo
+{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-bottom, .header-top
+{
+    background-color:#1F2937;
 }
 
 .header-top
@@ -27,6 +45,11 @@ li
     justify-content: center;
 }
 
+.links
+{
+    gap:20px;
+}
+
 .header-bottom
 {
     display: flex;
@@ -34,9 +57,11 @@ li
 }
 .hb-left
 {
+    font-size: 18px;
+    color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    lex: 0 0 auto;
+    flex: 0 0 auto;
 }
 
 .subtext
@@ -53,4 +78,101 @@ li
 {
     display: flex;
     flex:0 0 auto;
+    width: 200px;
+    height:auto;
+}
+.sign-up-top
+{
+background-color: #3882F6;
+color: white;
+border-radius: 5px;
+border-color: #3882F6;
+}
+/*start of second portion of website out of four*/
+
+h2
+{
+    display: flex;
+    justify-content: center;
+}
+
+.quad-img
+{
+    width: 150px;
+    height: auto;
+    border: 2px solid rgb(71, 71, 235);
+    border-radius: 25px;
+}
+
+.four-images, .img-info
+{
+    display:flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-left: 100px;
+    padding-right: 100px;   
+}
+
+/*third section out of four*/
+.quote
+{
+    background-color: #E5E7EB;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sentence
+{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+h3
+{
+    display: flex;
+    justify-content: right;
+    padding-right: 100px;
+}
+
+/*last section*/
+
+.footer
+{
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin:100px;
+    display: flex;
+    padding: 40px;
+}
+
+.footer-left
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.bottom-sign-up
+{
+    background-color: #3882F6;
+    color: white;
+    margin:20px;
+    margin-right: 40px;
+    width: 100px;
+    height: auto;
+    border-radius: 25px;
+    border-color: #E5E7EB;
+}
+
+.copyright
+{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
